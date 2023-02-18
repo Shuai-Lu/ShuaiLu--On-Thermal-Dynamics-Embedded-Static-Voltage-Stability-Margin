@@ -9,7 +9,7 @@ for dhs_control_mode = 1 : 4
     model = [];
     record = [];
     %% read dat
-    read_data('testdata_9bus.xlsx', 1); % 1: filename; 2: flag_clear
+    read_data('\data\testdata_9bus.xlsx', 1); % 1: filename; 2: flag_clear
     data.dhn.pipe_0 = data.dhn.pipe;
     data.dhn.node_0 = data.dhn.node;
 
